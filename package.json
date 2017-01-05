@@ -1,0 +1,23 @@
+{
+  "name": "airportinfo",
+  "version": "1.0.0",
+  "description": "alexa skill to check airport information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "ask",
+    "flight",
+    "info"
+  ],
+  "author": "Jeremy Levy",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "lodash": "^4.17.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
