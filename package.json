@@ -1,7 +1,7 @@
 {
-  "name": "airportinfo",
+  "name": "movieratings",
   "version": "1.0.0",
-  "description": "alexa skill to check airport information",
+  "description": "alexa skill to get movie ratings",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,9 @@
   "keywords": [
     "alexa",
     "ask",
-    "flight",
-    "info"
+    "movie",
+    "info",
+    "ratings"
   ],
   "author": "Jeremy Levy",
   "license": "ISC",
