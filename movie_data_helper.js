@@ -17,20 +17,20 @@ MovieDataHelper.prototype.getMovieRating = function(movieTitle) {
 };
 
 MovieDataHelper.prototype.formatMovieResults = function(movieResultsObject) {
-  // if (movieResultsObject.imdbRating === 'true') {
+  if (movieResultsObject.Response === 'True') {
     var template = _.template('IMBD gave ${movie} a rating of ${movie_rating}.');
     return template({
       movie: movieResultsObject.Title,
       movie_rating: movieResultsObject.imdbRating
     });
-  // } 
-  //else {
-  //   //no delay
-  //   var template =_.template('There is currently no delay at ${airport}.');
-  //   return template({
-  //     airport: aiportStatusObject.name,
-  //   });
-  // }
+  } 
+  else {
+    //no valid movie
+    var template =_.template('Sorry, I don\'t have data for that movie title.');
+    return template({
+      movie: movieResultsObject.Title,
+    });
+  }
 };
 
 module.exports = MovieDataHelper;

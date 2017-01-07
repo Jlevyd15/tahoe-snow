@@ -5,6 +5,9 @@ var Alexa = require('alexa-app');
 var skill = new Alexa.app('movieratings');
 var MovieDataHelper = require('./movie_data_helper');
 
+
+
+//custom intents
 skill.launch(function(req, res) {
   var prompt = 'For movie ratings, tell me a movie title.';
   res.say(prompt).reprompt(prompt).shouldEndSession(false);
@@ -39,6 +42,18 @@ skill.intent('movieRatingsIntent', {
       });
       return false;
     }
-  }
-);
+  });
+
+//built-in intents
+var cancelIntentFunction = function(request, response) {
+  response.say("Goodbye!").shouldEndSession(true);
+};
+
+skill.intent("AMAZON.CancelIntent", {}, cancelIntentFunction);
+skill.intent("AMAZON.StopIntent", {}, cancelIntentFunction);
+
+skill.intent('AMAZON.HelpIntent', function(req, res) {
+  res.say("Test help").shouldEndSession(true).send();
+});
+
 module.exports = skill;
