@@ -55,7 +55,9 @@ skill.intent("AMAZON.CancelIntent", {}, cancelIntentFunction);
 skill.intent("AMAZON.StopIntent", {}, cancelIntentFunction);
 
 skill.intent('AMAZON.HelpIntent', function(req, res) {
-  res.say("You can ask Tahoe Snow for snowfall information. Give me a ski resort and I will tell you how much snow is there. Try this command, ask Tahoe Snow for Heavenly.").shouldEndSession(true).send();
+  var prompt = "You can ask Tahoe Snow for snowfall information. I can tell you daily snowfall and total snowfall depth. Which Tahoe resort would you like a snow report for?";
+  var reprompt = "Tell me a ski resort to get snow report information.";
+  res.say(prompt).reprompt(reprompt).shouldEndSession(false).send();
 });
 
 module.exports = skill;
