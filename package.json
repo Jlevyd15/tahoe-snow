@@ -1,18 +1,11 @@
 {
-  "name": "movieratings",
+  "name": "tahoeSnowReport",
   "version": "1.0.0",
-  "description": "alexa skill to get movie ratings",
+  "description": "Alex skill that will responde with Tahoe area snow info",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.3a560f55-b79e-4c6f-8fd0-3b118affaac6"
   },
-  "keywords": [
-    "alexa",
-    "ask",
-    "movie",
-    "info",
-    "ratings"
-  ],
   "author": "Jeremy Levy",
   "license": "ISC",
   "dependencies": {
