@@ -1,60 +1,24 @@
 snowReportIntent	{SKIRESORTS}
-snowReportIntent	about {SKIRESORTS}
-snowReportIntent	for {SKIRESORTS}
-snowReportIntent	snowfall {SKIRESORTS}
-snowReportIntent	snow {SKIRESORTS}
-snowReportIntent	snowdepth {SKIRESORTS}
-snowReportIntent	powder {SKIRESORTS}
 snowReportIntent	info {SKIRESORTS}
-snowReportIntent	snowfall info {SKIRESORTS}
-snowReportIntent	snow info {SKIRESORTS}
-snowReportIntent	snowdepth info {SKIRESORTS}
-snowReportIntent	powder info {SKIRESORTS}
+snowReportIntent	information {SKIRESORTS}
 snowReportIntent	report {SKIRESORTS}
-snowReportIntent	snowfall report {SKIRESORTS}
-snowReportIntent	snow report {SKIRESORTS}
-snowReportIntent	snowdepth report {SKIRESORTS}
-snowReportIntent	powder report {SKIRESORTS}
 snowReportIntent	reports {SKIRESORTS}
-snowReportIntent	snowfall reports {SKIRESORTS}
-snowReportIntent	snow reports {SKIRESORTS}
-snowReportIntent	snowdepth reports {SKIRESORTS}
-snowReportIntent	powder reports {SKIRESORTS}
-snowReportIntent	snowfall for {SKIRESORTS}
-snowReportIntent	snow for {SKIRESORTS}
-snowReportIntent	snowdepth for {SKIRESORTS}
-snowReportIntent	powder for {SKIRESORTS}
+snowReportIntent	snow {SKIRESORTS}
+snowReportIntent	snowfall {SKIRESORTS}
+snowReportIntent	amount {SKIRESORTS}
+snowReportIntent	for {SKIRESORTS}
 snowReportIntent	info for {SKIRESORTS}
-snowReportIntent	snowfall info for {SKIRESORTS}
-snowReportIntent	snow info for {SKIRESORTS}
-snowReportIntent	snowdepth info for {SKIRESORTS}
-snowReportIntent	powder info for {SKIRESORTS}
+snowReportIntent	information for {SKIRESORTS}
 snowReportIntent	report for {SKIRESORTS}
-snowReportIntent	snowfall report for {SKIRESORTS}
-snowReportIntent	snow report for {SKIRESORTS}
-snowReportIntent	snowdepth report for {SKIRESORTS}
-snowReportIntent	powder report for {SKIRESORTS}
 snowReportIntent	reports for {SKIRESORTS}
-snowReportIntent	snowfall reports for {SKIRESORTS}
-snowReportIntent	snowdepth reports for {SKIRESORTS}
-snowReportIntent	powder reports for {SKIRESORTS}
+snowReportIntent	snow for {SKIRESORTS}
+snowReportIntent	snowfall for {SKIRESORTS}
+snowReportIntent	amount for {SKIRESORTS}
 snowReportIntent	at {SKIRESORTS}
-snowReportIntent	snowfall at {SKIRESORTS}
-snowReportIntent	snow at {SKIRESORTS}
-snowReportIntent	snowdepth at {SKIRESORTS}
-snowReportIntent	powder at {SKIRESORTS}
 snowReportIntent	info at {SKIRESORTS}
-snowReportIntent	snowfall info at {SKIRESORTS}
-snowReportIntent	snow info at {SKIRESORTS}
-snowReportIntent	snowdepth info at {SKIRESORTS}
-snowReportIntent	powder info at {SKIRESORTS}
+snowReportIntent	information at {SKIRESORTS}
 snowReportIntent	report at {SKIRESORTS}
-snowReportIntent	snowfall report at {SKIRESORTS}
-snowReportIntent	snow report at {SKIRESORTS}
-snowReportIntent	snowdepth report at {SKIRESORTS}
-snowReportIntent	powder report at {SKIRESORTS}
 snowReportIntent	reports at {SKIRESORTS}
-snowReportIntent	snowfall reports at {SKIRESORTS}
-snowReportIntent	snow reports at {SKIRESORTS}
-snowReportIntent	snowdepth reports at {SKIRESORTS}
-snowReportIntent	powder reports at {SKIRESORTS}
+snowReportIntent	snow at {SKIRESORTS}
+snowReportIntent	snowfall at {SKIRESORTS}
+snowReportIntent	amount at {SKIRESORTS}
