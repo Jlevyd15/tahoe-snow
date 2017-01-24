@@ -20,10 +20,9 @@ SnowDataHelper.prototype.capitalizeFirstLetterResortTitle = function(resortName)
 };
 
 SnowDataHelper.prototype.transformResortName = function(resortName) {
-  // console.log("in transform");
   //input will be "tahoe", "heavenly"
-   //output will be tahoe-doner
-   resortName = resortName.toLowerCase();
+  //output will be tahoe-doner
+  resortName = resortName.toLowerCase();
   switch(resortName) {
     case "bear mountain":
       resortName = "bear-mountain";
@@ -136,7 +135,8 @@ SnowDataHelper.prototype.formatSnowResults = function(snowDataHTML, resortName) 
   var currentSnow, snowDepth;
   var json = { currentSnow : "", snowDepth : "" };
 
-  json.resortName = resortName;
+  
+  json.resortName = SnowDataHelper.prototype.capitalizeFirstLetterResortTitle(resortName);
   json.currentSnow = $("#content_pos > div:nth-child(4) > div > div > div > a:nth-child(2) > div > div:nth-child(1) > p.bluetxt.sfa").text();
   json.snowDepth = $("#content_pos > div:nth-child(4) > div > div > div > a:nth-child(2) > div > div:nth-child(1) > p.bluetxt.sd").text();
   // console.log(JSON.stringify(json))
@@ -150,7 +150,7 @@ SnowDataHelper.prototype.formatSnowResults = function(snowDataHTML, resortName) 
     });
   } 
   else {
-    //no valid resort
+    //not valid resort no data was returned from the server
     var template =_.template('Sorry, I don\'t have data for that resort, tell me another resort name.');
     return template();
   }

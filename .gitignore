@@ -3,4 +3,8 @@
 #exclude .zip
 *.zip
 /zips
+#exclude data folder
+/data
+#exclude design files
+*.afdesign
 

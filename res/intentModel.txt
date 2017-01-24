@@ -5,7 +5,6 @@ snowReportIntent	report {SKIRESORTS}
 snowReportIntent	reports {SKIRESORTS}
 snowReportIntent	snow {SKIRESORTS}
 snowReportIntent	snowfall {SKIRESORTS}
-snowReportIntent	amount {SKIRESORTS}
 snowReportIntent	for {SKIRESORTS}
 snowReportIntent	info for {SKIRESORTS}
 snowReportIntent	information for {SKIRESORTS}
@@ -13,8 +12,6 @@ snowReportIntent	report for {SKIRESORTS}
 snowReportIntent	reports for {SKIRESORTS}
 snowReportIntent	snow for {SKIRESORTS}
 snowReportIntent	snowfall for {SKIRESORTS}
-snowReportIntent	amount for {SKIRESORTS}
-snowReportIntent	at {SKIRESORTS}
 snowReportIntent	info at {SKIRESORTS}
 snowReportIntent	information at {SKIRESORTS}
 snowReportIntent	report at {SKIRESORTS}
@@ -22,3 +19,19 @@ snowReportIntent	reports at {SKIRESORTS}
 snowReportIntent	snow at {SKIRESORTS}
 snowReportIntent	snowfall at {SKIRESORTS}
 snowReportIntent	amount at {SKIRESORTS}
+snowReportIntent	info on {SKIRESORTS}
+snowReportIntent	information on {SKIRESORTS}
+snowReportIntent	report on {SKIRESORTS}
+snowReportIntent	reports on {SKIRESORTS}
+snowReportIntent	snow on {SKIRESORTS}
+snowReportIntent	snowfall on {SKIRESORTS}
+snowReportIntent	amount on {SKIRESORTS}
+snowReportIntent	about {SKIRESORTS}
+snowReportIntent	info about {SKIRESORTS}
+snowReportIntent	information about {SKIRESORTS}
+snowReportIntent	what is the snow report for {SKIRESORTS}
+snowReportIntent	what's the snow report for {SKIRESORTS}
+snowReportIntent	give me the snow report for {SKIRESORTS}
+snowReportIntent 	tell me the snow report for {SKIRESORTS}
+snowReportIntent 	tell me snow info for {SKIRESORTS}
+snowReportIntent 	tell me snow information for {SKIRESORTS}
