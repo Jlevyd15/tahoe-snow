@@ -1,0 +1,96 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.f479f7f2-8b48-4a08-b211-c886e5eb36cd",
+		"application": {
+			"applicationId": "amzn1.ask.skill.3a560f55-b79e-4c6f-8fd0-3b118affaac6"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AF72AVHZVIUZNGDJEA4ELUMZM6QTVXVWE2HC4IO2MHRMDNRKOYZLODNXDXZZGCQVSQ2KKMY7SNPXS7SX7G673PTCWJFCBMYUEDE3GOFDC775YG2ELEQAVB4MBHDXVCC6WPMJWIZRVVJXCKISVXFWSEFKH2A77L3X6XQXAMQAJPRT4ETXXZ6L2N6Q7ZIRDYELAS2QAU6WS6DQSCQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.3a560f55-b79e-4c6f-8fd0-3b118affaac6"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AF72AVHZVIUZNGDJEA4ELUMZM6QTVXVWE2HC4IO2MHRMDNRKOYZLODNXDXZZGCQVSQ2KKMY7SNPXS7SX7G673PTCWJFCBMYUEDE3GOFDC775YG2ELEQAVB4MBHDXVCC6WPMJWIZRVVJXCKISVXFWSEFKH2A77L3X6XQXAMQAJPRT4ETXXZ6L2N6Q7ZIRDYELAS2QAU6WS6DQSCQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AH4L6N2LX66F4W4JXDVD37OWG2EY7ZVSU6WT7D4PHTDVYOD44SWHBUKOZUDBXBBZ2UQ3FUJU63JJQTUBXYO2IWFCAWFHYWTYJZGY3QISPT4ZTFI4SZYE532DESZHWY3DTSP4WP3XNRC624YUFPSGT55YXKEBAIIIUSJFRMWAFIF37JRBJQDSG",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjNhNTYwZjU1LWI3OWUtNGM2Zi04ZmQwLTNiMTE4YWZmYWFjNiIsImV4cCI6MTU2OTA4ODYzNywiaWF0IjoxNTY5MDg4MzM3LCJuYmYiOjE1NjkwODgzMzcsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFEY0tOK1MxZEVicFNVWDl6V3NCdlA3S3dFQUFBQUFBQUQraEJoR2k0ekt6Y2VxblRDQzRCamxBRldrTzBxZU1GNEFmY0VDZEJERFlQaERNeFZOa0kwQTFiWUJvaVpReXA3dldLNUlNYUUvcWZSWmhaM0NKZExiL3ZZQ1h3S1Y0U2I0WEZ0NzJTSFZHbTdWeVYwbitGNm02T3JHb2t6L2pFWkVMZ1dsZUFEMXk4a3BjYUNxRWUzNXhMektHWkhtNWdSeUtKb1hxWENIU2pWcXhScU1EYjc4TmdIUVJLR0pKR3JGZlVSM2M1RUdHTFVoZ2hNQm9JZXUxK2h2OXNCQnY5eFozRjRuZUltY2lDZitlSEdEQ01PeHJCY21BNTJWNHQwZ1pzNkRWZ0QrZ3VVVmJHOHEzVVAxNHNKYUJOUDk1T2NUYWs4RnVTeXhIT01iVG5XOGZ0bGdpYXREY1lEOVluWDNpOU0wUjhINzZjNW4rWmVabmNQaEwwak5BWE9FN1VTSGpOV3BIamJzcDc1ZEZoQnRLbmpBMWhWN01VY2RpU0RZTEt1VnBZMXR6eGdwNFE9PSIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFINEw2TjJMWDY2RjRXNEpYRFZEMzdPV0cyRVk3WlZTVTZXVDdENFBIVERWWU9ENDRTV0hCVUtPWlVEQlhCQloyVVEzRlVKVTYzSkpRVFVCWFlPMklXRkNBV0ZIWVdUWUpaR1kzUUlTUFQ0WlRGSTRTWllFNTMyREVTWkhXWTNEVFNQNFdQM1hOUkM2MjRZVUZQU0dUNTVZWEtFQkFJSUlVU0pGUk1XQUZJRjM3SlJCSlFEU0ciLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BRjcyQVZIWlZJVVpOR0RKRUE0RUxVTVpNNlFUVlhWV0UySEM0SU8yTUhSTUROUktPWVpMT0ROWERYWlpHQ1FWU1EyS0tNWTdTTlBYUzdTWDdHNjczUFRDV0pGQ0JNWVVFREUzR09GREM3NzVZRzJFTEVRQVZCNE1CSERYVkNDNldQTUpXSVpSVlZKWENLSVNWWEZXU0VGS0gyQTc3TDNYNlhRWEFNUUFKUFJUNEVUWFhaNkwyTjZRN1pJUkRZRUxBUzJRQVU2V1M2RFFTQ1EifX0.N7wum80M8rymMC57U_ERQ-s-Q9yh1v25JzJUhMjGuJx6kPNu2O20AMy3QeBCehzqWn984L8cVPZXRC6RxT57Wh6rYD6WfNMIV_6N0HI9rtvgU7_sCxvjUqRkITlx4UdXNn6WERRZjojh8zeEgl012ne4QJZMfZBquz_Hkzs0W8WVkmvEtQbtNPcM8r2mjRL0SVFj9fOpmSJ5xKevO_c7DE-hDY3_MVy4Y7OFiGbAda3bFkjGcKRLMj4j6CK0agsTPMFvdNCFgamvW6F_uIqXOR0rnE-U0A4_3FvK5qbZa0Dw5iN26_JELd-tMYWocdh1qB2jJ3nNx7APMf07ETESaQ"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.e6c0ed09-aec2-4654-bf0f-5dbb48eb5c33",
+		"timestamp": "2019-09-21T17:52:17Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "snowReportIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"SKIRESORTS": {
+					"name": "SKIRESORTS",
+					"value": "heavenly",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.3a560f55-b79e-4c6f-8fd0-3b118affaac6.RESORTS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "heavenly",
+											"id": "7b0fcf485c6e35ee028c14a3653a419c"
+										}
+									},
+									{
+										"value": {
+											"name": "heavenly ski",
+											"id": "f2cb5967e37a47eaa3de9361d25cd2d2"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}
