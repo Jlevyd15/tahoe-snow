@@ -3,4 +3,4 @@
 #exclude .zip
 *.zip
 /zips
-
+.DS_Store
