@@ -1,7 +1,6 @@
 'use strict';
 module.change_code = 1;
 var SkillId = "amzn1.ask.skill.3a560f55-b79e-4c6f-8fd0-3b118affaac6";
-var _ = require('lodash');
 var Alexa = require('alexa-app');
 var skill = new Alexa.app('snowreport');
 var SnowDataHelper = require('./snow_data_helper');
@@ -48,7 +47,7 @@ skill.intent('snowReportIntent', {
 		// console.log(JSON.stringify(req, null, ' '))
 		var skiResort = req.slot('SKIRESORTS');
 		var reprompt = 'Tell me a ski resort to get snow report information.';
-		if (_.isEmpty(skiResort)) {
+		if (!skiResort) {
 			console.log("slot was empty");
 			var prompt = 'I can\'t find that resort. Tell me a Tahoe ski resort to get started.';
 			res.say(prompt).reprompt(reprompt).shouldEndSession(false);
